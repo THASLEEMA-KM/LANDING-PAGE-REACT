@@ -1,0 +1,45 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+/* media queries - responsive */
+@media (max-width:715px)
+{
+  .icons{
+    display: flex;
+
+}
+#check:checked~.icons #menu-icon
+{
+    display: none;
+}
+.icons #close-icon
+{
+    display: none;
+}
+#check:checked~.icons #close-icon
+{
+    display: block;
+}
+#check:checked~.navbar1{
+  /* display: block; */
+  display: block;
+  height: 1rem;
+
+}
+.navbar1 
+{
+  display: none;
+}
+.navbar1 a{
+  display: block;
+  /* font-size: 1.1rem; */
+   font-size: 1.1rem;
+  margin: 1rem 0;
+  
+}
+
+
+}
