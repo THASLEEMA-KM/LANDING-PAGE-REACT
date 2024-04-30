@@ -1,10 +1,10 @@
 import React from 'react'
 // import picsture2 from '../assets/picsture2.webp'
 // import bali from '../assets/bali.jpg'
-import introsong from '../assets/introsong.mp3'
+// import introsong from '../assets/introsong.mp3'
 function Home() {
   return (
-    <div className='home container-fluid'  style={{minHeight:'100vh',width:'100%'}} >
+    <div className='home container-fluid' id='landing' style={{minHeight:'100vh',width:'100%'}} >
       {/* <img src={picsture2} alt="" /> */}
       <div className='text-center w-100 justify-content-center align-items-center fw-bolder'>
       <h1 className='pt-4 text-light animate__animated animate__flipInY'>Music Store</h1>

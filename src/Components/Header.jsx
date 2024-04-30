@@ -1,5 +1,9 @@
 import React from 'react'
 import logo from '../assets/logo.png'
+// import About from './About'
+// import Card from './Card'
+// import Foooter from './Foooter'
+// import Home from './Home'
 
 function Header() {
   return (
@@ -35,7 +39,7 @@ function Header() {
           
             </nav>
 </header> */}
-<header class="header">
+<header className="header">
 <a href='#'><img src={logo} alt="" style={{width:'80px',height:'80px'}} /></a>
         
         <input type="checkbox"  id="check"/>
@@ -47,8 +51,8 @@ function Header() {
         </label>
 
         <nav class="navbar">
-            <a href="">HOME</a>
-            <a href="">ABOUT</a>
+            <a href="#landing">HOME</a>
+            <a href="abouts">ABOUT</a>
             <a href="">GALLERY</a>
             <a href="">CONTACT</a>        
             <a href="">SIGN IN</a> 

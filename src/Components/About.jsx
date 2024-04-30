@@ -1,13 +1,9 @@
 import React from 'react'
-import drums from '../assets/drums.jpg'
-import t from '../assets/t.webp'
-import piano from '../assets/piano.jpg'
-import violin from '../assets/violin.webp'
 import video1 from '../assets/video1.mp4'
 import introsong from '../assets/introsong.mp3'
 function About() {
   return (
-    <div className='about container-fluid mt-2 align-items-center justify-content-center'>
+    <div id='abouts' className='about container-fluid mt-2 align-items-center justify-content-center'>
       <h1 className='text-center text-dark pt-3'>About Us</h1>
       <div className='row'>
         <div className="col-md-6">
