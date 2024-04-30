@@ -5,17 +5,17 @@ function Header() {
   return (
     <div>
 
-<header>
+{/* <header>
 <a href='#'><img src={logo} alt="" style={{width:'80px',height:'80px'}} /></a>
 <input type='checkbox'  id="check"/>
         <label for="check" className='icons'>
-            {/* <!-- menu icon --> */}
+            
             <i className='bx bx-menu' id="menu-icon"></i>
-            {/* <!-- close icon --> */}
+           
             <i className="bx bx-x" id="close-icon"></i>
         </label>
-       {/* <!-- menu bar --> */}
-        <nav className='navbar navbar1'>
+       
+        <nav className='navbar navbar navbar-expand-lg navbar1'>
        
 
             <div className='float-start'>
@@ -34,7 +34,27 @@ function Header() {
             </div>
           
             </nav>
-</header>
+</header> */}
+<header class="header">
+<a href='#'><img src={logo} alt="" style={{width:'80px',height:'80px'}} /></a>
+        
+        <input type="checkbox"  id="check"/>
+        <label for="check" class="icons">
+          
+            <i class='bx bx-menu' id="menu-icon"></i>
+           
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="">HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">GALLERY</a>
+            <a href="">CONTACT</a>        
+            <a href="">SIGN IN</a> 
+            <a href="">LOGIN</a> 
+        </nav>
+    </header>
     </div>
   )
 }
